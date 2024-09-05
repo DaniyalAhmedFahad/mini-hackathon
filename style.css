@@ -132,18 +132,53 @@ body {
     /* margin-left: -250px; */
 }
 
-.two-cards-flex {
+.cards-one-section1-container {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 .two-cards-first {
-    margin: 50px;
-    transform: transform 5s;
+    display: flex;
+    justify-content: space-between;
+    width: Fixed (600px)px;
+    height: Hug (310px)px;
+    padding: 50px 0px 0px 0px;
+    gap: 50px;
+    border-radius: 35px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #F3F3F3;
+    border: 1px solid #191A23;
+    box-shadow: 0px 5px 0px 0px #191A23;
+    padding: 50px;
 }
 
-.two-cards-first:hover {
-    transform: scale(1.03);
+.two-cards-2 {
+    display: flex;
+    justify-content: space-between;
+    width: Fixed(600px) px;
+    height: Hug(310px) px;
+    padding: 50px 0px 0px 0px;
+    gap: 50px;
+    border-radius: 35px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #B9FF66;
+    border: 1px solid #191A23;
+    box-shadow: 0px 5px 0px 0px #191A23;
+    padding: 50px;
+}
+
+.two-cards-flex {
+    padding: 35px 50px 50px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-main-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 :root {
@@ -323,20 +358,26 @@ input[type="radio"] {
     text-align: left;
 
 }
-.footer-two-box1 svg{
-margin-bottom: 30px;
+
+.footer-two-box1 svg {
+    margin-bottom: 30px;
 }
-.email{
+
+.email {
     border: 1px solid white;
-    padding: 22.6px 10px 22.6px 10px;
+    padding: 0px 10px 0px 10px;
     border-radius: 15px;
+    width: 230px;
+    height: 68px;
 }
-.email input{
+
+.email input {
     outline: none;
     border: transparent;
     background-color: transparent;
-    height: 22.6px;
+    height: 50px;
     color: white;
+    margin-top: 8px;
 }
 
 @media screen and (max-width:500px) {
@@ -379,10 +420,16 @@ margin-bottom: 30px;
         display: flex;
         flex-direction: column;
     }
-    .footer-two-box2{
+
+    .footer-two-box2 {
         display: flex;
         flex-direction: column;
-        
+
     }
-    
+
+    .cards-main-container {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
