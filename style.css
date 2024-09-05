@@ -306,9 +306,12 @@ input[type="radio"] {
     height: Hug (184px)px;
     padding: 58px 40px 58px 40px;
     gap: 20px;
-    border-radius: 14px 0px 0px 0px;
+    border-radius: 15px;
     opacity: 0px;
     background: #292A32;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
 }
 
 .footer-1-box-p {
@@ -316,12 +319,24 @@ input[type="radio"] {
     font-family: Space Grotesk;
     font-size: 18px;
     font-weight: 400;
-    line-height: 22.97px;
+    line-height: 22.9px;
     text-align: left;
 
 }
 .footer-two-box1 svg{
 margin-bottom: 30px;
+}
+.email{
+    border: 1px solid white;
+    padding: 22.6px 10px 22.6px 10px;
+    border-radius: 15px;
+}
+.email input{
+    outline: none;
+    border: transparent;
+    background-color: transparent;
+    height: 22.6px;
+    color: white;
 }
 
 @media screen and (max-width:500px) {
