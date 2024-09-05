@@ -251,7 +251,7 @@ body {
 .responsive-footer{
     display: none;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
 .responsive-footer{
     display: block;
 }
@@ -260,6 +260,31 @@ body {
 }
 .section-1-main-cantainer-flex {
     width: 300px;
+}
+*{
+    margin: 0px;
+}
+.section-1-flex ,.two-cards-flex{
+    flex-direction: column;
+}
+.main-list{
+    display: none;
+}
+.contect-button{
+    display: none;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-1-main-cantainer-flex{
+    width: 700px;
+}
+.section-1-main-cantainer-flex{
+    margin-left: 300px;
+}
 }
 *{
     margin: 0px;
