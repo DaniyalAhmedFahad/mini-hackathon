@@ -363,7 +363,6 @@ margin-bottom: 30px;
     .footer .footer-bg-border {
         display: flex;
         flex-direction: column;
-        border-radius: 0px;
     }
     .footer-two-box2{
         display: flex;
